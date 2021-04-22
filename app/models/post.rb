@@ -1,3 +1,4 @@
-class Post < ApplicationRecord
+class Post < ActiveRecord::Base
+
     validates :title, :content, presence: true
 end
